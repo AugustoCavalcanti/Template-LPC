@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Notícias</title>
+  <meta charset="utf-8">  <!-- padrão de codificação de caracteres -->  
+  <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- para ficar responsivo -->
+
+  <!--Bootstrap -->
+  <!------------------------------------------------------------------------------------------------------------->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>              
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  <!------------------------------------------------------------------------------------------------------------->
+
+
+  <!------------------- CSS -------------------------->
+	<style type="text/css">
+
+		span:hover + #span {
+			display: block;
+		}#span{
+			background-color: yellow;
+			padding: 20px;
+			display: none;
+		}.col-sm-4{
+			width: 33%;
+			background-color: LightGray;
+			border: 1px solid black;
+			margin: 1px;
+			
+		}#img_topo{
+			
+			background-repeat:repeat-x;
+		}#h1, #frase_topo{
+			
+		}.topo{
+			width: 
+			background-color: red;
+
+		}
+
+
+	</style>
+  <!-------------------------------------------------->
+
+  <!------------------JavaScript---------------------->
+  	<script>
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip();   
+		});
+	</script>
+  <!-------------------------------------------------->
+
+</head>
+
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Notícia</h1>
+  <p>Destaques do dia</p> 
+</div>
+  
+<div class="container">
+
+    <div class="row">  	
+  	
+	    <div class="col-sm-4" href="#" data-toggle="tooltip" title="Escreva algo aqui!">
+	    		    	
+			<h3>Notícia 1</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>				
+	    </div>    
+
+	    <div class="col-sm-4" href="#" data-toggle="tooltip" title="Escreva algo aqui!">
+			<h3>Notícia 2</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+
+	    <div class="col-sm-4" href="#" data-toggle="tooltip" title="Escreva algo aqui!">
+			<h3>Notícia 3</h3>        
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+
+	</div>
+
+</div>
+
+</body>
+</html>
